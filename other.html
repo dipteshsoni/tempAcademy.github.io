@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <!-- font awesome  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    
+    <title>Miscellaneous
+    </title>
+
+
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <nav id="navDesktop" class="container-fluid">
+        <div class="row">
+            <div id="navDiv" class="col-sm-4 navCol">
+                <div class="navbar mt-2">
+                    <a href="index.html">Home</a>
+                <a href="https://www.youtube.com/c/TEMPAcademy">Youtube</a>
+                <a href="index.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            
+
+
+         
+            <div id="nameDiv" class="col-sm-4 navCol text-center"><img id="navbarLogo" src="edited logo new.png"  alt="">TEMP Academy</div>
+
+
+            <div id="navSearch" class="col-sm-4 navCol float-right">
+                <nav class="navbar navbar-light float-right mt-3">
+                <form class="form-inline">
+                  <input id="searchbox" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button id="searchbtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </nav>
+            </div>
+        </div>
+    </nav>
+
+    <nav id="navMobile" >
+             
+                <div style="display: inline-block;">
+                    <img class="logoMobile" src="edited logo new.png" alt="">TEMP Academy
+                </div>
+
+
+            <div style="display: inline-block;" id="mySidenav" class="sidenav ">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+                <a href="index.html">Home</a>
+                <a href="https://www.youtube.com/c/TEMPAcademy">Youtube</a>
+                <a href="index.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+              </div>
+              
+              <!-- Use any element to open the sidenav -->
+              <span onclick="openNav()"><i id="bars" class="fa fa-bars mt-3 m-2 float-right"></i></span>
+    </nav>
+    <header id="navMobile">
+        <div id="navSearch" class="navCol">
+          <nav class="navbar navbar-light float-right mt-3">
+          <form class="form-inline">
+            <input id="searchbox2" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button  id="searchbtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </nav>
+      </div></header>
+      <div id="navMobile"><br><br><br><br></div>
+<!-- <h1>All Maths notes here :-</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 contentContainer">
+
+            <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+    </div>
+</div> -->
+
+<!-- <h1 class="my-4" >TIPS & TRICKS LINKS :-</h1> -->
+<div class="container">
+    <div class="row">
+        <div class="col"> <h1 class="text-light" style="text-shadow: 3px 5px black;">TIPS & TRICKS LINKS:-</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 contentContainer">
+
+            <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                 <a href="https://youtu.be/SyukGWUODtQ">  <img height="150px" width="150px" src="https://i.ytimg.com/vi/SyukGWUODtQ/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDUSfHFt5QJbGNYp3yTNppcZSpzvg" alt="">
+                 </a>  </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">automatic photo cutting</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="https://play.google.com/store/apps/details?id=bg.remove.android">App link</a></button>
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                 <a href="https://youtu.be/Dk9eWIouybA">  <img height="150px" width="150px" src="https://i.ytimg.com/vi/Dk9eWIouybA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAPrIdtXPDzh2GROX_ZqJJ5rU3lDQ" alt="">
+                 </a>  </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">photo to ppt conversion. </h6>
+                    <!-- <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button> -->
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                   <a href="https://youtu.be/ca1RIjPsAbU"><img height="150px" width="150px" src="WhatsApp Image 2020-09-19 at 15.21.34.jpeg" alt="">
+                   </a>  </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">face smoothing & toning</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="https://play.google.com/store/apps/details?id=photo.editor.polarr">App link.</a></button>
+                </article>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4 contentContainer">
+
+            <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                 <a href="https://youtu.be/uec9s1fR5KY">  <img height="150px" width="150px" src="https://i.ytimg.com/vi/uec9s1fR5KY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA97WDtBh1kbK0we_Wf6RMUSyBr0g" alt="">
+                 </a>  </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">how to check tag rank?</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="https://play.google.com/store/apps/details?id=com.tubebuddy.tubebuddy_mobile">App link</a></button>
+                </article>
+            </div>
+
+        </div>
+        <!-- <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                 <a href="https://youtu.be/Dk9eWIouybA">  <img height="150px" width="150px" src="https://i.ytimg.com/vi/Dk9eWIouybA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAPrIdtXPDzh2GROX_ZqJJ5rU3lDQ" alt="">
+                 </a>  </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">photo to ppt conversion. </h6>
+                     <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button> 
+                </article>
+            </div>
+
+        </div> -->
+        <!-- <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                   <a href="https://youtu.be/ca1RIjPsAbU"><img height="150px" width="150px" src="EDITING.png" alt="">
+                   </a>  </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">face smoothing & toning</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="https://play.google.com/store/apps/details?id=photo.editor.polarr">App link.</a></button>
+                </article>
+            </div>
+
+        </div> -->
+    </div>
+
+
+</div>
+    
+<h1 class="text-light my-4" style="text-shadow: 3px 5px black;" >Grammar PPTs :-</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 contentContainer">
+
+            <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <a href="https://www.youtube.com/watch?v=WztqwLsu4U0&t=508s"><img height="150px" width="150px" src="https://i.ytimg.com/vi/WztqwLsu4U0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDAFdbkCsi9qUrtvoIMRb_B4twfFA" alt="">
+                    </a>
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">sentences & its kinds</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="https://drive.google.com/file/d/1KqMMi9tiyopaF_Gojd-OjHtbuNhevknU/view?usp=drivesdk">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <!-- <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div> -->
+        <!-- <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div> -->
+    </div></div>
+    
+<h1 class="text-light my-4" style="text-shadow: 3px 5px black;">All Tinkercad Circuits' equipment buying links:-</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 contentContainer">
+
+            <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="https://i.ytimg.com/vi/ZqKs6AGfUVk/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLA_lh-SEFNBxF6N3lwsiYMVNclIow" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">tinkercad signup process</h6>
+                    <button type="button" class="pointernotallowed btn btn-outline-primary m-1 p-1" disabled><a class="text-light pointernotallowed" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="https://i.ytimg.com/vi/aZMefQLdMzo/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLArVrtwSKhl-aU6zI79k1T3QdhwUw" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">glow led in tinkercad circuit</h6>
+                    <button type="button" class="pointernotallowed btn btn-outline-primary m-1 p-1" disabled><a class="text-light pointernotallowed" href="#" >Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div>
+        <!-- <div class="col-sm-4 contentContainer">
+                   <div style="border: 2px solid black;" class="container d-flex justify-content-around">
+                <article class="m-2 p-2">
+                    <img height="150px" width="150px" src="EDITING.png" alt="">
+                </article>
+                <article class="m-2 p-2">
+                    <h6 class="m-1 text-light">TITLE OF THE VIDEO</h6>
+                    <button type="button" class="btn btn-outline-primary m-1 p-1"><a class="text-light" href="#">Click here to download.</a></button>
+                </article>
+            </div>
+
+        </div> -->
+    </div>
+    </div>
+
+
+    
+<footer>
+    <div class="container-fluid bg-dark text-light">
+      <div class="row">
+        <div class="col-sm text-light">
+          <pre class="text-light text-center">Copyright @TEMPAcademy 2020-21.
+    All Rights Reserved.</pre>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+       
+        </div>
+        <div class="col-1">
+        <a href="mailto:academytemp1426@gmail.com"><i class="fa fa-envelope"></i></a>
+        </div>
+        <div class="col-2">
+       
+        </div>
+        <div class="col-1">
+          <a href="https://www.instagram.com/academy_temp/"><i class="fa fa-instagram"></i></a>
+        </div> <div class="col-2">
+       
+        </div>
+        <div class="col-1">
+          <a href="https://wa.me/8770633263"><i class="fa fa-whatsapp"></i></a>
+        </div> <div class="col-2">
+       
+        </div>
+        <div class="col-1">
+      
+        </div>
+      </div>
+    </div>
+    
+    </footer>
+    
+    
+    
+    
+    
+    
+        <!-- Optional JavaScript -->
+        <script src="custom.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      </body>
+    </html>

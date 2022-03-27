@@ -1,0 +1,366 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to bottom right,#1d2d50,#133b5c,rgb(93, 53, 53),rgb(93, 53, 53));
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logoMobile{
+    height: 50px;
+    width: 50px;
+   
+}
+
+input::placeholder {
+  color: rgb(250, 201, 201);
+}
+textarea::placeholder {
+  color: rgb(250, 201, 201);
+}
+
+#navbarLogo{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 12px;
+}
+#navSearch{
+    /* position: relative;
+    left: 94px; */
+    float: right;
+}
+#nameDiv{
+    font-size: large;
+    font-weight: bolder;
+  /* position: relative;
+  
+
+  left: 72px; */
+  color: yellow;
+  float: right;
+
+}
+#navDiv{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar a{
+    /* border: 2px solid blue; */
+    margin: 4px;
+    padding: 6px;
+    font: large;
+    font-weight: bold;
+color: white;
+    text-decoration: none;
+
+}
+.navbar a:hover{
+    /* border: 2px solid black; */
+    border-radius: 12px;
+    /* background: rgb(32, 31, 31); */
+    /* color: white; */
+   font-size: x-large;
+
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background: linear-gradient(to bottom right,#1d2d50,#133b5c,rgb(93, 53, 53),rgb(93, 53, 53));
+  /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  .sidenav a:first-child{
+
+    background: transparent;
+    color: white;
+  }
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 4px 8px 4px 32px;
+    text-decoration: none;
+    font-size: 25px;
+   
+    color: white;
+    display: block;
+    transition: 0.3s;
+    width: 140px;
+    background-color: rgba(231, 7, 7, 0.924);
+    margin: 12px;
+    border-radius: 10px;
+
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    background: transparent;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: -18px;
+    right: -85px;
+    font-size: 36px;
+     /* margin-left: 50px; */
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+@media only screen and (min-width:780px){
+    #navMobile{
+        display: none;
+
+    }
+    #navDesktop{
+        display: block;
+    }
+}
+
+
+
+#searchbtn{
+  display: none;
+}
+@media only screen and (max-width:780px){
+    #navMobile{
+        display: block;
+        color: yellow;
+
+    }
+    #navDesktop{
+        display: none;
+    }
+}
+
+#mainpage .columnss{
+  /* border: 3px solid red; */
+  height: auto;
+  margin: 4px;
+  padding: 8px;
+}
+
+.contactus{
+  min-height: 80vh;
+}
+
+.gmail{
+  font-size: 14px;
+}
+
+#temp{
+  font-size: 5.0em;
+  text-shadow: 4px 7px black;
+}
+#academy{
+  font-size: 5.0em;
+  text-shadow: 4px 7px black;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height: auto;
+  
+
+}
+@media only screen and (min-width : 780px){
+  .slideshow-container{
+    margin-top: 40px;
+  }
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (min-width:780px){
+  #temp {
+    font-size: 180px;
+    text-align: center;
+  }
+  #academy {
+    font-size: 108px; text-align: center;
+  }
+
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.contact-section{
+  /* background: url(bgimage.jpg) no-repeat center; */
+  /* background-size: cover; */
+  padding: 40px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color: #ddd;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: transparent;
+  padding: 20px 40px;
+  outline: none;
+  color: black;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: rgb(71, 68, 68);
+  color: black;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: transparent;
+}
+
+footer pre{
+  font-size: large;
+}
+
+.pointernotallowed{
+  cursor: not-allowed;
+}
+
+.fa{
+  font-size: 30px;
+}
+
+.contactinside{
+  margin: 8px 4px;
+  padding: 12px;
+  color: white;
+}
+.contactinside span{
+  margin: 0px 4px;
+  padding: 0px 5px;
+}
+.contactinside .fa{
+  color: orangered;
+}
+
+/* #neeche{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+} */
+
+#collapsebody h1:hover{
+text-decoration: none;
+}
+
+.formcontact
+{
+  max-width: 300px;
+}
+.formcontact input,textarea{
+  max-width: 250px;
+  padding: 8px;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+}
+.formcontact label{
+  color: white;
+}
